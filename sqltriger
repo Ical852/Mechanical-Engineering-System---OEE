@@ -1,0 +1,12 @@
+pemasukkan
+batal_pemasukkan
+UPDATE sparepart SET sparepart.stok = sparepart.stok - old.jumlah_masuk WHERE sparepart.id_sp = old.id_sp
+
+pemasukkan
+UPDATE sparepart SET sparepart.stok = sparepart.stok + new.jumlah_masuk WHERE sparepart.id_sp = new.id_sp
+
+update_pemasukkan
+UPDATE sparepart SET sparepart.stok = sparepart.stok - old.jumlah_masuk WHERE sparepart.id_sp = old.id_sp
+
+update_pemasukkan2
+UPDATE sparepart SET sparepart.stok = sparepart.stok + new.jumlah_masuk WHERE sparepart.id_sp = new.id_sp
